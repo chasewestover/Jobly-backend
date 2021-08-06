@@ -15,6 +15,8 @@ You can view the deployed version
 
 ## Installation and Setup Instructions
 
+heroku deployment: jobly-backend-cw
+
 ### Server-side
 1. Clone the [backend
    repository](https://github.com/chasewestover/Jobly-frontend)
