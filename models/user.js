@@ -238,7 +238,6 @@ class User {
         
         return application;
     } catch(e) {
-      console.log(e)
       throw new NotFoundError(e.detail)
     }
   }

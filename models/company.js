@@ -98,7 +98,6 @@ class Company {
     if (!company) throw new NotFoundError(`No company: ${handle}`);
     
     company.jobs = assocJobsRes;
-    console.log(company)
 
     return company;
   }

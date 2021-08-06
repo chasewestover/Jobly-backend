@@ -77,7 +77,6 @@ function filterBuilder(filterParams){
     if (queryFor.length > 0) {
       finalQuery += "WHERE " + queryFor.join(" AND ");
     }
-    console.log(finalQuery, "HEREEE")
     return {finalQuery, myValArray};
   }
 

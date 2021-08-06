@@ -31,7 +31,6 @@ describe("POST /jobs", function () {
     };
 
   test("ok for admins", async function () {
-    console.log(jobarray[0].id, "sdfk")
     const resp = await request(app)
         .post("/jobs")
         .send(newJob)
